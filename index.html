@@ -3,35 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Кофейня</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="avatar.webp" width="400" alt="Тут было фото кофе">
-    <h1>Кофе</h1>
-    <hr>
-    <p><em><strong>Кофе — это напиток</strong>, сваренный из обжаренных и перемолотых кофейных зёрен.</em></p>
-     <p>Арабика — один из самых распространённых видов кофе. Это кофейный вид-гибрид, способный расти в Бразилии, Колумбии, Гватемале, Эфиопии и Индонезии. </p>
-     <h2>Виды кофе</h2>
-     
-     <ul type="square">
-        <li><a href="https://shop.tastycoffee.ru/blog/raznitsa-mezhdu-arabikoi-i-robustoi" target="_blank"> Арабика </a></li>
-        <li><a href="https://ru.wikipedia.org/wiki/Кофе_аравийский" target="_blank">Робуста</a></li>
-     </ul>
-     <h2>Любимые сорта</h2>
-     <table>
-        <tr>
-            <td>123</td>
-            <td>321</td>
-            <td>31</td>
-        </tr>
-     </table>
-     <h3>Сорты арабики</h3>
-     
-     <ol type="I">
-        <li>Коста-Рика</li>
-        <li>Гвадемала</li>
-        <li>Эфиопия</li>
-     </ol>
-     <h2>Наше меню</h2>
-     <a href="menu.html" target="_blank">Посмотреть</a>
-</body>
+      <div class="container">
+      <div class="info">
+            <img src="avatar.webp" alt="Тут было фото кофе" class="avatar">
+            <h1>Кофе</h1>
+            <hr>
+            <p><strong>Кофе — это напиток, сваренный из обжаренных и перемолотых кофейных зёрен.</strong></p>
+            <p><strong>Арабика</strong> — один из самых распространённых видов кофе. Это кофейный вид-гибрид, способный расти в Бразилии, Колумбии, Гватемале, Эфиопии и Индонезии. </p>
+            <h4>Виды кофе</h4>
+                  <a href="https://shop.tastycoffee.ru/blog/raznitsa-mezhdu-arabikoi-i-robustoi" target="_blank"><strong>Арабика</strong></a>
+                  |           
+                  <a href="https://ru.wikipedia.org/wiki/Кофе_аравийский" target="_blank"><strong>Робуста</strong></a>         
+      </div>
+      <h2>Сравнение Арабики и Робусты</h2>
+      <div class="card bg-yellow">
+         <table border="1" class="table">
+            <thead>
+               <tr>
+                  <th>Арабика</th>
+                  <th>Робуста</th>
+               </tr>
+            </thead>
+            <tbody>
+            <tr>
+                  <td>Содержит меньше кофеина</td>
+                  <td>Содержит больше кофеина</td>
+            </tr>
+            <tr>
+               <td>Насыщенный вкус с кислинкой</td>
+               <td>Ненасыщенный вкус с горчинкой</td>
+            </tr>
+            </tbody>
+         </table>
+      </div>    
+<div class="card bg-green">
+         <h3>Сорты арабики</h3>
+         <ol class="list">
+            <li>Коста-Рика</li>
+            <li>Гвадемала</li>
+            <li>Эфиопия</li>
+         </ol>
+         </div>
+            <div class="card bg-red">
+            <h2>Наше меню</h2>
+            <a href="menu.html" target="_blank">Посмотреть</a>
+         </div>
+   </body>
 </html>
